@@ -1,0 +1,23 @@
+programa {
+  funcao inicio() {
+    inteiro dados[3], valor1, valor2, valor3  #vetor com o nome dados que abriga valores do tipo inteiro com três valores
+
+    escreva("Por favor, digite um valor: \n")  #interação com o usuario
+    leia(dados[0])  #armazenar o valor inserido pelo usuário
+    escreva("O valor informado foi: ", dados[0], ".\n")  #apresentação do valor que foi inserido no vetor
+
+    escreva("Por favor, digite um valor: \n")
+    leia(dados[1])
+    escreva("O valor informado foi: ", dados[1], ".\n")
+
+    escreva("Por favor, digite um valor: \n")
+    leia(dados[2])
+    escreva("O valor informado foi: ", dados[2], ".\n")
+
+    valor1 = dados[0] #guarda em valor 1 o que está no vetor dados na posição 0
+    valor2 = dados[1]
+    valor3 = dados[2]
+
+    escreva("O valor 1 é: ", dados[0], ". O valor 2 é: ", dados[1], ". O valor 3 é: ", dados[2],".\n")
+  }
+}
