@@ -21,3 +21,10 @@ programa {
     escreva("O valor 1 é: ", dados[0], ". O valor 2 é: ", dados[1], ". O valor 3 é: ", dados[2],".\n")
   }
 }
+
+
+#Uma opção é automatizar para não precisar ficar repetindo toda vez o prompt
+
+#  para(inteiro i = 0; i < 3; i++){
+#    escreva("Digite o valor: ")
+#    leia(dados[i])
